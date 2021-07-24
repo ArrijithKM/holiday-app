@@ -1,4 +1,4 @@
-#include"foodorder.h"
+#include"../inc/foodorder.h"
 
 int quantity;
 double total=0;

@@ -1,4 +1,4 @@
-#include"railway.h"
+#include"../inc/railway.h"
 
 int railwayticket()
 
