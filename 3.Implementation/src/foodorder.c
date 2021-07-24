@@ -213,7 +213,7 @@ void vegetarian(void)
 	else
 	{
 		printf("Wrong Input! Re-enter THe Correct Option\n\n");
-		if(getch())
+		if(getchar())
 		vegetarian();
 	}
 }
