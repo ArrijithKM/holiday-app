@@ -22,7 +22,7 @@ int railwayticket()
 		case 2:
 			viewdetails();
 			printf("\n\nPress Enter");
-			getc();
+			getchar();
 			break;
 		case 3:
 			cancel();
@@ -69,7 +69,7 @@ void reservation(void)
 	printf("\nEnter Number of seats: ");
 	scanf("%d",&ctm.num_of_seats);
 	printf("\n\nPress Enter To View Available Trains ");
-	getc();
+	getchar();
 	system("cls");
 	viewdetails();
 	printf("\n\nEnter train number:> ");
@@ -93,7 +93,7 @@ void reservation(void)
 		fprintf(fp,"%s\t\t%d\t\t%d\t\t%.2f\n",ctm.name,ctm.num_of_seats,ctm.train_num,charges);
 		printf("\n Reservation Done\n");
 		printf("\nPress any key to go back to Main menu");
-		getc();
+		getchar();
 		railwayticket();
 	}
 	else
@@ -104,12 +104,12 @@ void reservation(void)
 		else
 		{
 			printf("\nInvalid choice entered! Enter again ");
-			getc();
+			getchar();
 			goto start;
 		}
 	}
 	fclose(fp);
-	getc();
+	getchar();
 }
 
 float charge(int train_num,int num_of_seats)
@@ -281,7 +281,7 @@ void cancel(void)
 		fflush(stdin);
 		scanf("%i",&trainnum);
 		printf("\n\nCancelled");  
-		getc();
+		getchar();
 }
 
 int checktrainticket(int sno)

@@ -376,7 +376,7 @@ void details(void)
 	printf("                       *********************************************************************************************\n");
 
 	printf("Press Any To The MainMenu.");
-	if(getc())
+	if(getchar())
 	customers();
 }
 
