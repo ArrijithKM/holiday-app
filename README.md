@@ -4,7 +4,7 @@
 Holiday application is an all in one application for booking tickets online for bus, train, movies, restaurants and hotel stays.The online booking system is a system that provides a single platform for all kinds of bookings. This project would provide customers with an option to book tickets online and to search online for confirmation. Customers can book bus tickets, train tickets, and they can book or reserve hotels, movies and restaurants and plan their holiday through a single application within a short period of time
 |Build|Valgrind check|CPP check|Unity testing|Git inspector|
 |-----|-----|----|----|---|
-|[![C/C++ CI - Build Status](https://github.com/GENESIS2021Q1/sdlc-team-8/actions/workflows/build.yml/badge.svg)](https://github.com/GENESIS2021Q1/sdlc-team-8/actions/workflows/build.yml)|[![Valgrind_Check](https://github.com/GENESIS2021Q1/sdlc-team-8/actions/workflows/Valgrindcheck.yml/badge.svg)](https://github.com/GENESIS2021Q1/sdlc-team-8/actions/workflows/Valgrindcheck.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/GENESIS2021Q1/sdlc-team-8/actions/workflows/ccppcheck.yml/badge.svg)](https://github.com/GENESIS2021Q1/sdlc-team-8/actions/workflows/ccppcheck.yml)|[![Unit testing](https://github.com/GENESIS2021Q1/sdlc-team-8/actions/workflows/unity.yml/badge.svg)](https://github.com/GENESIS2021Q1/sdlc-team-8/actions/workflows/unity.yml) |[![Contribution Check - Git Inspector](https://github.com/GENESIS2021Q1/sdlc-team-8/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/GENESIS2021Q1/sdlc-team-8/actions/workflows/gitinspector.yml)|
+
 
 ### Folder Structure
 |      Folder      | Description                        |
