@@ -2,8 +2,9 @@
 ## Project name-Holiday app
 ### Description:
 Holiday application is an all in one application for booking tickets online for bus, train, movies, restaurants and hotel stays.The online booking system is a system that provides a single platform for all kinds of bookings. This project would provide customers with an option to book tickets online and to search online for confirmation. Customers can book bus tickets, train tickets, and they can book or reserve hotels, movies and restaurants and plan their holiday through a single application within a short period of time
-|Build|Valgrind check|CPP check|Unity testing|Git inspector|
-|-----|-----|----|----|---|
+|Build|CPP check|Unity testing|Git inspector|
+|-----|----|----|---|
+
 
 
 ### Folder Structure
