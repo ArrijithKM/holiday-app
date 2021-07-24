@@ -198,7 +198,7 @@ User* NewUser(User* p)
     p=t;
     fflush(stdin);
     printf("\nEnter pwd: ");
-    scanf("%[^\n]s",&nw->pwd);
+    scanf("%[^\n]s",(char *)(&nw->pwd));
     nw->next=NULL;
     strcpy(nw->place,"N/A");
     nw->price=0.0;

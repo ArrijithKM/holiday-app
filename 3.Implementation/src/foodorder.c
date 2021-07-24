@@ -66,7 +66,7 @@ void vegetarian(void)
 	int again;
 	int quantity;
 
-	double price=0;
+	//double price=0;
 
 	printf("                    ****************************************\n                                  VEGETARIAN MENU\n                    ****************************************\n\n");
 	//printf("      1. Burger               40/-\n      2. Noodles              60/-\n      3. Sandwich             45/-\n      4. Beverages            35/-\n      5. Veg. Thaali          150/-\n         -->Dal\n         -->Paneer\n         -->Chapati\n         -->Rice\n         -->Papad\n      6. Back To Main Menu\n\n Enter Your Choice-->  ");
@@ -222,7 +222,7 @@ void nonvegetarian(void)
 	int choice;
 	int again;
 	int quantity;
-	double price=0;
+	//double price=0;
 	printf("                                    **********************************************\n");
 	printf("                                                  Non Veg. Menu\n");
 	printf("                                    **********************************************\n");
@@ -357,7 +357,7 @@ void details(void)
 	printf("Last Name : ");
 	scanf("%s",name2);
 	printf("Phone : ");
-	scanf("%lld",&phone);
+	scanf("%ld",&phone);
 	printf("Address : ");
 	scanf("%s",address);
 	printf("Landmark : ");
@@ -366,9 +366,9 @@ void details(void)
 	printf("Your Entered Details Are --->\n");
 	FILE *cust;
 	cust = fopen("Foodorder.txt","a");
-	fprintf(cust,"Order Placed By : %s %s\nPhone number : %lld\n",name1,name2,phone);
+	fprintf(cust,"Order Placed By : %s %s\nPhone number : %ld\n",name1,name2,phone);
 	fclose(cust);
-	printf("    -->First Name :  %s\n    -->Last Name   :  %s\n    -->Phone     :%lld \n    -->Address  :%s \n    -->Landmark  :%s \n",name1,name2,phone,address,landmark);
+	printf("    -->First Name :  %s\n    -->Last Name   :  %s\n    -->Phone     :%ld \n    -->Address  :%s \n    -->Landmark  :%s \n",name1,name2,phone,address,landmark);
 	printf("\n\n\n");
 	printf("                       *********************************************************************************************\n");
 	printf("                                             Your Order Will Be At Your Door In 30 minutes.\n");

@@ -10,7 +10,7 @@ system("cls || clear");
 	printf("\e[1;1H\e[2J");
 	//login();
 
-	int choice,choice_return;
+	int choice;
 	start:
 	printf("\e[1;1H\e[2J");
 	printf("    BUS RESERVATION SYSTEM");
@@ -47,12 +47,12 @@ system("cls || clear");
 }
 void login()
 {
-	int b=0,i=0;
-	FILE *in=fopen("input.txt","r");
-    char username[10],password[10],c=' '; 
-    char pword[10],code[10];
-    char user[10]="Preethiy";
-    char pass[10]="123";
+	int b=0;
+	//FILE *in=fopen("input.txt","r");
+    char username[10],password[10]; 
+    //char pword[10];
+    //char user[10]="Preethiy";
+    //char pass[10]="123";
 	do
 	{
 		printf("\n  =======================  LOGIN FORM  =======================\n  ");
@@ -60,7 +60,7 @@ void login()
 		scanf("%s", username);
 		printf(" \n                       ENTER PASSWORD:-");
 		scanf("%s",password);
-		i=0;
+		//int i=0;
 		if(strcmp(username,"Preethiy")==0 && strcmp(password,"123")==0)
 		{
 		printf("  \n\n\n       WELCOME TO OUR SYSTEM !! YOUR LOGIN IS SUCCESSFUL\n");
@@ -91,7 +91,7 @@ void login()
 	}
 void bookbusticket(void)
 {	char confirm;
-	int i=0;
+	//int i=0;
 	float charges;
 	pd port;
 	FILE *fp;
@@ -201,12 +201,13 @@ float chargebusticket(int sno,int num_of_seats)
 	{
 		return(750.0*num_of_seats);
 	}
+	return 0.0;
 }
 
 void cancelbusticket(void){
     FILE *srcFile;
     FILE *tempFile;
-    int line;
+    //int line;
     char name[100];
     srcFile  = fopen("bus_ticket.txt", "r");
     tempFile = fopen("delete-line.txt", "w");
