@@ -348,7 +348,7 @@ void details(void)
 {
 	char name1[20];
 	char name2[20];
-	long long int phone;
+	long int phone;
 	char address[40];
 	char landmark[30];
 	printf("Please Give Your Contact Details \n");
