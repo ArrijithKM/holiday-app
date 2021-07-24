@@ -7,6 +7,7 @@ Holiday application is an all in one application for booking tickets online for 
 |[![C/C++ CI - Build Status](https://github.com/ArrijithKM/holiday-app/actions/workflows/build.yml/badge.svg)](https://github.com/ArrijithKM/holiday-app/actions/workflows/build.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/ArrijithKM/holiday-app/actions/workflows/ccppcheck.yml/badge.svg)](https://github.com/ArrijithKM/holiday-app/actions/workflows/ccppcheck.yml)|[![Unit testing](https://github.com/ArrijithKM/holiday-app/actions/workflows/unity.yml/badge.svg)](https://github.com/ArrijithKM/holiday-app/actions/workflows/unity.yml)|[![Contribution Check - Git Inspector](https://github.com/ArrijithKM/holiday-app/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/ArrijithKM/holiday-app/actions/workflows/gitinspector.yml)|
 
 * Unit test is failing due to file misplacement.
+* All testcases are passing in offline implementation.
 
 
 ### Folder Structure
